@@ -1,0 +1,6 @@
+{
+  "name": "MediLab Pro - Medical Laboratory & Queue Management System",
+  "description": "نظام وتطبيق متكامل لإدارة المختبرات والتحاليل الطبية وإدارة طوابير المرضى مع بوابات للمرضى، الفنيين، والأطباء، وتوليد التقارير الطبية المعتمدة وشاشات الانتظار الذكية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

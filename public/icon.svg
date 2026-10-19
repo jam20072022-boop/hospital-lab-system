@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="flaskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Medical Cross Accent -->
+  <path d="M 236 70 H 276 V 110 H 316 V 150 H 276 V 190 H 236 V 150 H 196 V 110 H 236 Z" fill="#2dd4bf" opacity="0.35" />
+  <!-- Lab Flask Body -->
+  <path d="M 226 140 L 226 210 L 135 370 A 30 30 0 0 0 161 416 L 351 416 A 30 30 0 0 0 377 370 L 286 210 L 286 140 Z" fill="none" stroke="#f0fdfa" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Flask Lip -->
+  <rect x="210" y="126" width="92" height="20" rx="10" fill="#f0fdfa" />
+  <!-- Liquid in Flask -->
+  <path d="M 166 360 L 346 360 L 322 316 C 300 326 280 305 256 312 C 230 320 210 302 190 316 Z" fill="url(#flaskGrad)" filter="url(#glow)" opacity="0.9" />
+  <!-- Bubbles -->
+  <circle cx="230" cy="346" r="10" fill="#ffffff" opacity="0.8" />
+  <circle cx="280" cy="336" r="14" fill="#ffffff" opacity="0.7" />
+  <circle cx="256" cy="270" r="8" fill="#ffffff" opacity="0.9" />
+  <!-- Pulse Line Overlay -->
+  <path d="M 120 440 L 190 440 L 220 405 L 250 470 L 280 425 L 305 440 L 392 440" fill="none" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
